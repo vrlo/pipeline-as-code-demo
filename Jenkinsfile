@@ -9,7 +9,7 @@ node {
 
 stage 'QA'
 parallel(longerTests: {
-    runTests(30)
+    runTests(40)
 }, quickerTests: {
     runTests(20)
 })
